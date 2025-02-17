@@ -14,7 +14,7 @@ void draw()
   float SD2 = 80;
   float mean2 = 3;
   float x = SD * gaussian + mean;
-  float y = random(-720,720);
+  float y = random(-360,360);
   float scale = SD2 * gaussian2 + mean2;
   float r = random(0,255);
    float g = random(0,255);
